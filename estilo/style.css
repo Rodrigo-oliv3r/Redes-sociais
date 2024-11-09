@@ -3,6 +3,25 @@
     margin: 0px;
     padding: 0px;
 }
-body{
-    background-image:linear-gradient( left, rgb(10, 20, 10), rgb(143, 251, 143));
+:root{
+    --cor01: #107361;
+    --cor02: #1D7373;
+    --cor03: #0F5959;
+    --cor04: #0A3A40;
+    --cor05: #042326;
+}
+html, body{
+    height: 100vh;
+    width: 100vw;
+    background-image: radial-gradient(circle, var(--cor01), var(--cor03), var(--cor05)) ;
+}
+main{
+    position: relative;
+    height: 100vh;
+}
+#aparelho{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);  
 }
