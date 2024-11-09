@@ -25,3 +25,8 @@ main{
     top: 50%;
     transform: translate(-50%, -50%);  
 }
+#social > ul > li > a > img{
+    display: inline-block;
+    height: 50px;
+
+}
